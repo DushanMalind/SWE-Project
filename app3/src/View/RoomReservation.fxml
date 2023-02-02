@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealPackagesId" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RoomReservation">
+   <children>
+      <Label layoutX="117.0" layoutY="36.0" prefHeight="47.0" prefWidth="314.0" text=" Room Reservation" textFill="#f41313">
+         <font>
+            <Font name="Arial Narrow Bold" size="40.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="105.0" prefHeight="34.0" prefWidth="99.0" text="Room ID">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="20.0" />
+         </font></Label>
+      <TextField layoutX="157.0" layoutY="110.0" />
+      <Button layoutX="182.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnSeeAvilble" prefHeight="49.0" prefWidth="246.0" style="-fx-background-color: #00ffff;" text="See Avilaible Room">
+         <font>
+            <Font name="Arial Narrow Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="508.0" layoutY="23.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="78.0" style="-fx-background-color: #dc143c;" text="Back">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="122.0" fitWidth="156.0" layoutX="17.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/24trending-shophotels1-videoSixteenByNineJumbo1600.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="200.0" layoutX="386.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/photo-1631049307264-da0ec9d70304.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="168.0" layoutX="412.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/hotel-room-300x300.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

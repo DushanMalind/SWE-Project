@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealPackagesId" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ModifyRoom">
+   <children>
+      <Label layoutX="62.0" layoutY="23.0" prefHeight="47.0" prefWidth="353.0" text="             Modify Room" textFill="#fa0000">
+         <font>
+            <Font name="Arial Narrow Bold" size="40.0" />
+         </font></Label>
+      <Label layoutX="46.0" layoutY="89.0" prefHeight="28.0" prefWidth="105.0" text="Room ID">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="18.0" />
+         </font></Label>
+      <Label layoutX="46.0" layoutY="126.0" prefHeight="28.0" prefWidth="105.0" text="Room Type">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="16.0" />
+         </font></Label>
+      <Label layoutX="46.0" layoutY="172.0" prefHeight="28.0" prefWidth="105.0" text="Description">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="16.0" />
+         </font></Label>
+      <Label layoutX="46.0" layoutY="210.0" prefHeight="28.0" prefWidth="105.0" text="Cost">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="16.0" />
+         </font></Label>
+      <TextField layoutX="140.0" layoutY="91.0" />
+      <TextField layoutX="140.0" layoutY="173.0" />
+      <TextField layoutX="140.0" layoutY="211.0" />
+      <ComboBox fx:id="cmbRoomType" layoutX="140.0" layoutY="127.0" prefWidth="150.0" />
+      <Button layoutX="181.0" layoutY="258.0" mnemonicParsing="false" onAction="#btnUpdate" prefHeight="44.0" prefWidth="114.0" style="-fx-background-color: #00ffff;" text="Update">
+         <font>
+            <Font name="Arial Narrow Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="512.0" layoutY="21.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="73.0" style="-fx-background-color: #dc143c;" text="Back">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="316.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/403-4036484_living-room-cartoon-png-transparent-png.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="377.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/istockphoto-1323901664-170667a.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

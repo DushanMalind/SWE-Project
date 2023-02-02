@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainFromCon" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.UserLogin">
+   <children>
+      <ImageView disable="true" fitHeight="453.0" fitWidth="727.0" layoutX="-11.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/dark-hotel-luxury-night-wallpaper-preview.jpg" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="22.0" prefHeight="31.0" prefWidth="152.0" text="    Welcome" textFill="#19e40b">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font></Label>
+      <Label layoutX="204.0" layoutY="69.0" prefHeight="51.0" prefWidth="319.0" text="  Blue Ocean Hotel " textAlignment="CENTER" textFill="#ff0101" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font name="Britannic Bold" size="37.0" />
+         </font></Label>
+      <Button layoutX="224.0" layoutY="165.0" mnemonicParsing="false" onAction="#btnAdminOnClick" prefHeight="51.0" prefWidth="171.0" style="-fx-background-image: 15; -fx-background-color: #7fffd4;" styleClass="circle3" stylesheets="@../Css/style.css" text="Addmin">
+         <font>
+            <Font name="Arial Narrow" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="224.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnReciptionOnClick" prefHeight="51.0" prefWidth="171.0" style="-fx-background-color: #7fffd4;" stylesheets="@../Css/style.css" text="Reciption">
+         <font>
+            <Font name="Arial Narrow" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="circle2" />
+            <String fx:value="circle3" />
+         </styleClass></Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="459.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true" style="-fx-focus-traversable: 100;">
+         <image>
+            <Image url="@../Image/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
